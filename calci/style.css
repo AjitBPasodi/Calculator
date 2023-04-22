@@ -1,0 +1,29 @@
+
+		#screen{
+			width: 320px;
+			border-radius: 13px;
+			box-shadow: inset 5px 5px 3px grey, inset -5px -5px 3px white;  /* inset andra holag shadow bartad */
+		}
+		.calci{
+			background-color: rgba(200, 200, 200);
+			display: inline-block;/*calci suttha ondh correct box bartad (padding width height enu byada) */
+			padding: 10px; /* holagirad swalp door hogtad calci nind center gi hogtad */
+			border-radius: 12px;
+                	}
+		input{
+			width: 70px;
+			height: 60px;
+			margin: 5px;
+			font-size: 30px;
+			border-radius: 10px;  /* this four columns is for dynamic buton backside boxshadow */
+			border: none;
+			box-shadow: 5px 5px 3px grey, -5px -5px 3px white;
+			background: rgba(200, 200, 200);
+		}
+
+		input:hover:active{          /* active tegadra cursor mele bandra design & active ittra button click aagana HOVER bartad */ 
+			box-shadow: inset 5px 5px 3px grey, inset -5px -5px 3px white;
+
+
+		}
+		
